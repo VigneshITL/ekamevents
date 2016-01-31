@@ -1,0 +1,44 @@
+{
+  "name": "js-data",
+  "description": "Robust, framework-agnostic in-memory data store.",
+  "homepage": "http://www.js-data.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/js-data/js-data.git"
+  },
+  "authors": [
+    "Jason Dobry <jason.dobry@gmail.com>"
+  ],
+  "main": "./dist/js-data.js",
+  "ignore": [
+    ".idea/",
+    ".*",
+    "*.iml",
+    "src/",
+    "lib/",
+    "doc/",
+    "guide/",
+    "coverage/",
+    "Gruntfile.js",
+    "node_modules/",
+    "test/",
+    "package.json",
+    "karma.conf.js",
+    "karma.start.js"
+  ],
+  "devDependencies": {
+    "observe-js": "0.5.5",
+    "js-data-http": ">=2.0.0",
+    "js-data-localstorage": ">=2.0.0"
+  },
+  "version": "2.6.1",
+  "_release": "2.6.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.6.1",
+    "commit": "fc4870fa07a7cddb684d94b8b5e2c25813b330ff"
+  },
+  "_source": "git://github.com/js-data/js-data.git",
+  "_target": "~2.6.0",
+  "_originalSource": "js-data"
+}

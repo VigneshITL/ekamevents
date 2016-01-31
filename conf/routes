@@ -1,0 +1,13 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET            /								controllers.Assets.at(path="/public", file="index.html")
+GET            /bower_components/*file                                                 controllers.Assets.at(path="/public/bower_components", file)
+GET            /scripts/*file                                                          controllers.Assets.at(path="/public/scripts", file)
+GET            /images/*file                                                           controllers.Assets.at(path="/public/images", file)
+GET            /styles/*file                                                           controllers.Assets.at(path="/public/styles", file)
+
+# Map static resources from the /public folder to the /assets URL path
+
